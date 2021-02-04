@@ -2,6 +2,7 @@
 
 <head>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="style.css"
 </head>
 
 <body>
@@ -9,17 +10,32 @@
     <p id="description">Thankyou for being valuable customer and trusting our services</p>
     <form id="survey-form">
 
-        <div id="form-control">
+        <div class="form-control">
             <label for="name" id="name-label">Name: </label>
-            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            <input type="text" id="name" placeholder="Enter your Name" required />
         </div><br>
-        <div id="form-control">
+        <div class="form-control">
             <label for="email" id="email-label">Email: </label>
-            <input type="url" id="email" name="email" placeholder="Enter your Email" required>
+            <input type="url" id="email" placeholder="Enter your Email" required />
         </div><br>
-        <div id="form-control">
+        <div class="form-control">
             <label for="number" id="number-label">Age: </label>
-            <input type="number" id="number" name="number" placeholder="Enter your Age" required>
+            <input type="number" id="number" placeholder="Enter your Age">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describes your current role?</label>
+            <select name="role" id="dropdown">
+                <option value="registered">Registered Customers</option>
+                <option value="visitors">Visitors</option>
+                <option value="others">others</option>
+            </select>
+            <div class="form-control">
+                <label>Would you recommend Mittra Sverige to a friend?</label>
+                <label for="definatly"><input type="radio" id="definatly" name="radio"
+                        value="definatly" />Definatly</label>
+                <label for="maybe"><input type="radio" id="maybe" name="radio" value="maybe" />May Be</label>
+                <label for="notsure"><input type="radio" id="notsure" name="radio" value="notsure" />Not Sure</label>
+            </div>
         </div>
     </form>
 </body>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+body{
+ text-align: center;
+  margin: 0;
+  font-family: Mukta,Calibri;
+  background-color: lightgrey;
+}
+form{
+  background-color: #fff;
+  max-width:450px;
+  margin: 0 auto;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+  padding: 30px 20px;
+}
+.form-control {
+  margin-bottom:10px;
+  text-align: left;
+}
+.form-control label{
+  display: block;
+  margin-bottom: 6px;
+}
+.form-control input, .form-control select{
+    font-family: inherit;
+  display:block;
+  border: 1px solid #777;
+  border-radius: 2px;
+  width:100%;
+}
+.form-control input[type="radio"]{
+  display: inline-block;
+  width: auto;
+}
