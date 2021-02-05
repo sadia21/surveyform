@@ -21,7 +21,6 @@ form{
   margin-bottom: 6px;
 }
 .form-control input, .form-control select{
-    font-family: inherit;
   display:block;
   border: 1px solid #777;
   border-radius: 2px;
@@ -30,4 +29,16 @@ form{
 .form-control input[type="radio"]{
   display: inline-block;
   width: auto;
+}
+.form-control input[type="checkbox"]{
+  display: inline-block;
+  width: auto;
+}
+.form-control button{
+  background: lightgrey;
+ display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding:10px;
+  
 }
