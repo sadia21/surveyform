@@ -34,7 +34,13 @@ form{
   display: inline-block;
   width: auto;
 }
+.form-control textarea{
+  width: 100%;
+  line-height: 40px;
+  font-family: inherit;
+}
 .form-control button{
+  font-size: 15px;
   background: lightgrey;
  display: block;
   width: 100%;

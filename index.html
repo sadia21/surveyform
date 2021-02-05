@@ -12,15 +12,15 @@
 
         <div class="form-control">
             <label for="name" id="name-label">Name: </label>
-            <input type="text" id="name" placeholder="Enter your Name" required />
+            <input type="text" id="name" placeholder="Enter your Name" required url />
         </div><br>
         <div class="form-control">
             <label for="email" id="email-label">Email: </label>
-            <input type="url" id="email" placeholder="Enter your Email" required />
+            <input type="email" id="email" placeholder="Enter your Email" required />
         </div><br>
         <div class="form-control">
             <label for="number" id="number-label">Age: </label>
-            <input type="number" id="number" placeholder="Enter your Age">
+            <input type="number" id="number" placeholder="Enter your Age" required min="0" max="100">
         </div>
         <div class="form-control">
             <label for="role" id="label-role">Which option best describes your current role?</label>
@@ -59,10 +59,14 @@
             <label for="service" name="Others"></label><input type="checkbox" value="others" />Other
         </div>
         <div class="form-control">
-            <button name="Submit" id="Submit">Submit</button>
-            <type></type>
+            <label for="comment">Any comments or suggestions?</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
         </div>
+        <div class="form-control">
+            <button name="submit" id="submit">Submit</button>
+            <type></type>
 
+        </div>
     </form>
 </body>
 
